@@ -15,7 +15,7 @@ Feature: Web table user order feature
     And user enters expiry date "12/23"
     And user enters process order button
     Then user should see "Sherlock Holmes" in first row of the web table
-
+@kaisar
   Scenario Template: User should be able to place order and order seen in web table
     Given user is already logged in and on order page
     When user selects product type "<productType>"
